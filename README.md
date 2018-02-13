@@ -1,3 +1,10 @@
+Forked from mattjj/svae by pauloabelha
+
+The purpose of this forking is to maintain a version that I can easily run while also documenting the steps required to make it run from scratch. 
+
+
+README before I forked:
+
 Code for [Composing graphical models with neural networks for structured representations and fast inference](http://arxiv.org/abs/1603.06277), a.k.a. structured variational autoencoders.
 
 **NOTE:** This code isn't yet compatible with a recent rewrite of autograd. To
