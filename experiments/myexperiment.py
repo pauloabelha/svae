@@ -20,11 +20,12 @@ from svae.util import normalize
 from svae.distributions import dirichlet
 from svae.distributions import dirichlet, niw
 
-from svae.forward_models import mlp_decode
-mlp_decode = partial(mlp_decode, tanh_scale=1000., sigmoid_output=False)
+#from svae.forward_models import mlp_decode
+#mlp_decode = partial(mlp_decode, tanh_scale=1000., sigmoid_output=False)
 
-from gmm_svae_synth import decode as make_pinwheel_data, gmm_decode, \
-    encode_mean, decode_mean
+from gmm_svae_synth import make_pinwheel_data
+#from gmm_svae_synth import decode as make_pinwheel_data, gmm_decode, \
+#    encode_mean, decode_mean
 
 
 gridsize = 75

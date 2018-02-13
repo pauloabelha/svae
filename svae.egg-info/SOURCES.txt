@@ -1,0 +1,13 @@
+README.md
+setup.py
+svae/__init__.py
+svae/nnet.py
+svae/svae.py
+svae/tf_nnet.py
+svae/util.py
+svae.egg-info/PKG-INFO
+svae.egg-info/SOURCES.txt
+svae.egg-info/dependency_links.txt
+svae.egg-info/top_level.txt
+svae/hmm/cython_hmm_inference.c
+svae/lds/cython_lds_inference.c
