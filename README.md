@@ -10,21 +10,19 @@ TL;DR - I want to run this ting!
 In order to get up and running a demo (assuming you cloned the repo to ~/svae):
 
 1) Install Anaconda:
-  https://conda.io/docs/user-guide/install/download.html#anaconda-or-miniconda
-  When installing, I recommend saying Yes to the Great Serpent everytime she asks you something
-  Everytime you say no to some default path you are at your own peril
+  - https://conda.io/docs/user-guide/install/download.html#anaconda-or-miniconda
+  - When installing, I recommend saying Yes to the Great Serpent everytime she asks you something
+  - Everytime you say no to some default path you are at your own peril
 2) Open a new terminal
 3) Create a python2 environment
-  conda create -n py27 python=2.7 anaconda
-3) Install dependencies:
-  conda install --name py27 future
-4) Activate the environment:
-  source activate py27
-4) Run an experiment:
-  cd ~/svae/experiments
-  python gmm_svae_synth.py
-
-
+  - `conda create -n py27 python=2.7 anaconda`
+4) Install dependencies:
+  - `conda install --name py27 future`
+5) Activate the environment:
+  - `source activate py27`
+6) Run an experiment:
+  - `cd ~/svae/experiments`
+  - `python gmm_svae_synth.py`
 
 
 
