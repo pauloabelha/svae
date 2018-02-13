@@ -1,8 +1,13 @@
 from __future__ import division, print_function
 import matplotlib.pyplot as plt
-import autograd.numpy as np
-import autograd.numpy.random as npr
+from autograd import numpy as np
+from autograd.numpy import random as npr
 from autograd.optimizers import adam, sgd
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir) 
+
 from svae.svae import make_gradfun
 from svae.nnet import init_gresnet, make_loglike, gaussian_mean, gaussian_info
 from svae.models.gmm import (run_inference, init_pgm_param, make_encoder_decoder,
@@ -31,10 +36,10 @@ if __name__ == "__main__":
     K = 15                     # number of components in mixture model
     N = 2                      # number of latent dimensions
     P = 2                      # number of observation dimensions
-
+	print('a')
     # generate synthetic data
     data = make_pinwheel_data(0.3, 0.05, num_clusters, samples_per_cluster, 0.25)
-
+	print('b')
     # set prior natparam to something sparsifying but otherwise generic
     pgm_prior_params = init_pgm_param(K, N, alpha=0.05/K, niw_conc=0.5)
 
