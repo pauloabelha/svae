@@ -2,7 +2,7 @@ from __future__ import division, print_function
 import matplotlib.pyplot as plt
 from autograd import numpy as np
 from autograd.numpy import random as npr
-from autograd.optimizers import adam, sgd
+from autograd.misc.optimizers import adam, sgd
 import os,sys,inspect
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))

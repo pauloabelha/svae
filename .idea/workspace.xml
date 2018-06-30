@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7ca788f-7dce-44cb-9f25-eb82aa10a1c2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/container_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/convenience_wrappers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/core.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/complex_array_node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/fft.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/gpu_array_node.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/linalg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/numpy_extra.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/numpy_grads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/numpy_wrapper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/random.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/numpy/use_gpu_numpy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/optimizers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/linalg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/signal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/special.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/stats/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/stats/dirichlet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/stats/multivariate_normal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/stats/norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/scipy/stats/t.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/autograd/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/gmm_svae_synth.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments/gmm_svae_synth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svae/svae.py" beforeDir="false" afterPath="$PROJECT_DIR$/svae/svae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svae/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/svae/util.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="gmm_svae_synth.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experiments/gmm_svae_synth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments/data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-298">
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="load.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments/load.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slds_svae.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svae/models/slds_svae.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="312" column="83" selection-start-line="312" selection-start-column="62" selection-end-line="312" selection-end-column="83" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lds_inference.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svae/lds/lds_inference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3024">
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gmm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svae/models/gmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svae.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svae/svae.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/svae/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2538">
+              <caret line="141" column="46" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>expected</find>
+      <find>ListNode</find>
+      <find>TupleNode</find>
+      <find>istuple</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/experiments/gmm_svae_synth.py" />
+        <option value="$PROJECT_DIR$/svae/svae.py" />
+        <option value="$PROJECT_DIR$/svae/util.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="245" />
+    <option name="y" value="79" />
+    <option name="width" value="1855" />
+    <option name="height" value="1084" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="svae" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svae" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svae" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svae" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svae" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svae" type="462c0819:PsiDirectoryNode" />
+              <item name="svae" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="svae" type="b2602c69:ProjectViewProjectNode" />
+              <item name="svae" type="462c0819:PsiDirectoryNode" />
+              <item name="svae" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/DuoHand" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="gmm_svae_synth" type="PythonConfigurationType" factoryName="Python">
+      <module name="svae" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../anaconda3/envs/svae_env/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/gmm_svae_synth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7ca788f-7dce-44cb-9f25-eb82aa10a1c2" name="Default" comment="" />
+      <created>1530358452497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530358452497</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959569" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991803" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39959016" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/experiments/gmm_svae_synth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/models/gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/svae.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/myexperiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1254" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/autograd/optimizers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/nnet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/models/gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/svae.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="141" column="46" selection-start-line="141" selection-start-column="39" selection-end-line="141" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/lds/lds_inference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3024">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/svae/models/slds_svae.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="312" column="83" selection-start-line="312" selection-start-column="62" selection-end-line="312" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/gmm_svae_synth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="61" column="40" lean-forward="true" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

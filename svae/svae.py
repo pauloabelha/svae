@@ -1,8 +1,8 @@
 from __future__ import division, print_function
 from toolz import curry
 from autograd import value_and_grad as vgrad
-from autograd.util import flatten
-from util import split_into_batches, get_num_datapoints
+from autograd.misc import flatten
+from svae.util import split_into_batches, get_num_datapoints
 
 callback = lambda i, val, params, grad: print('{}: {}'.format(i, val))
 flat = lambda struct: flatten(struct)[0]
@@ -25,7 +25,7 @@ def make_gradfun(run_inference, recognize, loglike, pgm_prior, data,
 
     def gradfun(params, i):
         pgm_params, loglike_params, recogn_params = params
-        objective = lambda (loglike_params, recogn_params): \
+        objective = lambda loglike_params, recogn_params: \
             -mc_elbo(pgm_params, loglike_params, recogn_params, i)
         val, (loglike_grad, recogn_grad) = vgrad(objective)((loglike_params, recogn_params))
         pgm_natgrad = -natgrad_scale / num_datapoints * \

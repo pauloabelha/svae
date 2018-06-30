@@ -2,8 +2,13 @@ from __future__ import division
 import autograd.numpy as np
 import autograd.numpy.random as npr
 import autograd.scipy.linalg as spla
-from autograd.util import flatten
-from itertools import islice, imap, cycle
+from autograd.misc import flatten
+from itertools import islice, cycle
+try:
+    from itertools import imap
+except ImportError:
+    # Python 3...
+    imap=map
 import operator
 from functools import partial
 from toolz import curry
